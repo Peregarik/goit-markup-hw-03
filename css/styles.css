@@ -1,0 +1,252 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент текста #2196F3 */
+/* белый #FFFFFF */
+/* цвет фона#2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --seondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Шапка сайта */
+
+.page-header {
+  background-color: #ffffff;
+}
+
+/* Имя сайта */
+
+.site-name-head {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.color-name-site {
+  color: var(--accent-text-color);
+}
+
+/* Навигация сайта */
+
+.list-nav {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-text-color);
+}
+
+.link-nav.current {
+  color: var(--accent-text-color);
+}
+
+/* Контакты сайта */
+
+.list-cont {
+  list-style: none;
+}
+
+.link-cont-mail:hover,
+.link-cont-tel:hover {
+  color: var(--accent-text-color);
+}
+
+.link-cont-mail,
+.link-cont-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--seondary-text-color);
+}
+
+/* Шапка сайта/ */
+
+/* Уникальный контент страницы */
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.hero-btn {
+  background-color: #188ce8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: var(--accent-text-color);
+}
+
+/* Особености */
+
+.features-section {
+  background-color: #ffffff;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.features-lead {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--seondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.benefits-section {
+  background-color: #ffffff;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.benefits-list {
+  list-style: none;
+}
+
+/* Наша команда */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+}
+
+.team-titul {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--seondary-text-color);
+}
+
+/* Фильтр */
+
+.filtr-list {
+  list-style: none;
+}
+
+.filtr-btn {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.filtr-btn:hover {
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+}
+
+/* Наши проекты */
+
+.projects-list {
+  list-style: none;
+}
+
+.projects-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--seondary-text-color);
+}
+
+/* Уникальный контент страницы/ */
+
+/* Футер */
+
+.page-footer {
+  background-color: #2f303a;
+}
+.site-name-flooter {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.site-address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.link-cont-mail,
+.link-cont-tel {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-cont-mail:hover,
+.link-cont-tel:hover {
+  color: #ffffff;
+}
+
+/* Футер/*/
