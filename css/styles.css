@@ -325,8 +325,8 @@ body {
 /* Портфолио */
 
 .projects-section {
-  margin-top: 90px;
-  margin-bottom: 90px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filtr-list {
