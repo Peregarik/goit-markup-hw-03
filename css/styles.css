@@ -51,6 +51,17 @@ body {
   padding: 0 15px;
 }
 
+.container-header {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: var(--primary-white-color);
+}
+
 /* * {
   outline: 1px solid tomato;
 } */
@@ -59,15 +70,6 @@ body {
 
 .header-berder-botoom {
   border-bottom: 1px solid var(--primary-border-bottom);
-}
-
-.page-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 80px;
-
-  background-color: var(--primary-white-color);
 }
 
 /* Имя сайта */
@@ -103,6 +105,8 @@ body {
 
 .link-nav {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   list-style: none;
   font-weight: 500;
   font-size: 14px;
@@ -135,6 +139,8 @@ body {
 .header-cont-mail,
 .header-cont-tel {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -154,16 +160,15 @@ body {
 /* Уникальный контент страницы */
 
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background-color: var(--hero-bg-color);
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   width: 700px;
   font-weight: 900;
   font-size: 44px;
@@ -199,7 +204,8 @@ body {
 /* Особености */
 
 .features-section {
-  margin-top: 90px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 
   background-color: var(--primary-white-color);
 }
@@ -210,6 +216,10 @@ body {
   justify-content: space-between;
   list-style: none;
   gap: 30px;
+}
+
+.features-item {
+  flex-basis: 270px;
 }
 
 .features-title {
@@ -233,8 +243,7 @@ body {
 /* Чем мы занимаемся */
 
 .benefits-section {
-  margin-top: 90px;
-
+  padding-bottom: 94px;
   background-color: var(--primary-white-color);
 }
 
@@ -250,7 +259,6 @@ body {
 
 .benefits-list {
   display: flex;
-  flex-direction: row;
   gap: 30px;
   margin-top: 50px;
   list-style: none;
@@ -262,10 +270,14 @@ body {
 
 /* Наша команда */
 
+.box-team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-section {
-  margin-top: 90px;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 
   background-color: var(--primary-bg-color);
 }
@@ -298,7 +310,7 @@ body {
 }
 
 .team-photo {
-  margin-bottom: 30px;
+  display: block;
 }
 
 .team-name {
@@ -316,7 +328,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
   text-align: center;
 
   color: var(--seondary-text-color);
@@ -375,7 +386,7 @@ body {
 }
 
 .card-text {
-  max-width: 370px;
+  padding: 20px 24px;
   border: 1px solid var(--primary-bg-color);
   border-top-style: none;
 }
@@ -393,11 +404,8 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 5px;
-  padding-top: 20px;
 
+  margin-bottom: 4px;
   color: var(--primary-text-color);
 }
 
@@ -405,9 +413,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
 
   color: var(--seondary-text-color);
 }
@@ -457,6 +462,10 @@ body {
 
 .item-footer {
   margin-bottom: 10px;
+}
+
+.item-footer:last-child {
+  margin-bottom: 0;
 }
 
 .footer-cont-mail,

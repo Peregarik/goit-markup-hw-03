@@ -19,8 +19,9 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <div class="container">
-      <header class="page-header">
+
+    <header>
+      <div class="container-header">
         <a class="site-name-head" href="./index.html"
           ><span class="color-name-site">Web</span>Studio
         </a>
@@ -39,72 +40,85 @@
           </li>
           <li><a class="header-cont-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </header>
-    </div>
+      </div>
+    </header>
+
     <!-- Уникальный контент страницы -->
     <main>
       <!-- Герой -->
       <section class="hero-section">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-btn" type="button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
 
       <!-- Особености -->
-      <section class="features-section container">
-        <h2 class="visually-hidden">Наші особливості</h2>
-
-        <ul class="features-list">
-          <li>
-            <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="features-lead">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="features-lead">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">ПЛАНУВАННЯ</h3>
-            <p class="features-lead">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="features-lead">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="features-section">
+        <div class="container">
+          <h2 class="visually-hidden">Наші особливості</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-lead">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-lead">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p class="features-lead">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-lead">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Чем мы занимаемся -->
       <section class="benefits-section">
-        <h2 class="benefits-title">Чим ми займаємося</h2>
+        <div class="container">
+          <h2 class="benefits-title">Чим ми займаємося</h2>
 
-        <ul class="benefits-list container">
-          <li>
-            <img class="benefits-photo" src="images/box1.jpg" alt="Створення сайтів" width="370" />
-          </li>
-          <li>
-            <img
-              class="benefits-photo"
-              src="images/box2.jpg"
-              alt="Адаптація сайтів під мобільні пристрої"
-              width="370"
-            />
-          </li>
-          <li><img class="benefits-photo" src="images/box3.jpg" alt="Веб дизайн" width="370" /></li>
-        </ul>
+          <ul class="benefits-list">
+            <li>
+              <img
+                class="benefits-photo"
+                src="images/box1.jpg"
+                alt="Створення сайтів"
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                class="benefits-photo"
+                src="images/box2.jpg"
+                alt="Адаптація сайтів під мобільні пристрої"
+                width="370"
+              />
+            </li>
+            <li>
+              <img class="benefits-photo" src="images/box3.jpg" alt="Веб дизайн" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Наша команда -->
       <section class="team-section">
-        <h2 class="team-title">Наша команда</h2>
         <div class="container">
+          <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
@@ -113,9 +127,10 @@
                 alt="Фото члена команди"
                 width="270"
               />
-
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="team-titul">Product Designer</p>
+              <div class="box-team-description">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-titul">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -124,9 +139,10 @@
                 alt="Фото члена команди"
                 width="270"
               />
-
-              <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="team-titul">Frontend Developer</p>
+              <div class="box-team-description">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-titul">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -135,9 +151,10 @@
                 alt="Фото члена команди"
                 width="270"
               />
-
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-titul">Marketing</p>
+              <div class="box-team-description">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-titul">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -146,9 +163,10 @@
                 alt="Фото члена команди"
                 width="270"
               />
-
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-titul">UI Designer</p>
+              <div class="box-team-description">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-titul">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
