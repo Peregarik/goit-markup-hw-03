@@ -155,6 +155,11 @@ body {
   color: var(--accent-text-color);
 }
 
+.header-cont-mail:focus,
+.header-cont-tel:focus {
+  color: var(--accent-text-color);
+}
+
 /* Шапка сайта/ */
 
 /* Уникальный контент страницы */
@@ -342,7 +347,7 @@ body {
 
 .filtr-list {
   list-style: none;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -363,6 +368,11 @@ body {
 }
 
 .filtr-btn:hover {
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+.filtr-btn:focus {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
 }
@@ -477,6 +487,16 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-cont-mail:hover,
+.footer-cont-tel:hover {
+  color: var(--accent-text-color);
+}
+
+.footer-cont-mail:focus,
+.footer-cont-tel:focus {
+  color: var(--accent-text-color);
 }
 
 /* Футер/*/
